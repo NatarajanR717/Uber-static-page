@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    display: grid;
+    background-color: black;
+    padding-block: 8px;
+    padding-inline: 50px;
+    grid-template-columns: 10% 40% 50%;
+}
+.logo{
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+a:hover{
+    background-color: #333;
+    transition: .3s;
+
+}
+.menu-right ul{
+    display: flex;
+    padding-block-start: 12px;
+    align-items: flex-start;
+}
+.menu-left ul{
+    display: flex;
+    align-items: flex-end;
+    padding-block-start: 12px;
+    justify-content: right;
+}
+.menu-left .sign-up{
+    background-color: #fff;
+    color: black;
+}
+.menu-left .sign-up:hover{
+    background-color: #E2e2e2;
+    transition: .3s;
+}
+

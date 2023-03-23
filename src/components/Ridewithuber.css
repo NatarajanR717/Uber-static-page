@@ -1,0 +1,33 @@
+.ride_container{
+    padding: 80px 100px;
+}
+.head{
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: #333;
+}
+.ride_container .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+}
+.ride_container .cards .card{
+    display: flex;
+    gap: 36px;
+}
+.ride_container .cards .card:hover{
+    cursor: pointer;
+}
+.ride_container .cards .card:hover .svg{
+    transform: translateX(15px);
+    transition: .5s;
+}
+.ride_container .cards .card .svg{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.ride_container .cards .card .text{
+    padding-top: 36px;
+}

@@ -1,0 +1,26 @@
+.business-content{
+    padding:50px 100px;
+}
+.business-content h3{
+    font-size: 40px;
+    padding-block-end: 20px;
+}
+.business-content p{
+    font-size: 18px;
+    padding-block-end: 30px;
+}
+.business-content button{
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.business-content button:hover{
+    background-color: #333333;
+    cursor: pointer;
+    transition: .3s;
+}

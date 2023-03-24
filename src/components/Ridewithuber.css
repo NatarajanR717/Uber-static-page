@@ -2,7 +2,7 @@
     padding: 80px 100px;
 }
 .head{
-    font-size: 40px;
+    font-size: 36px;
     padding-bottom: 50px;
     color: #333;
 }
@@ -20,13 +20,13 @@
 }
 .ride_container .cards .card:hover .svg{
     transform: translateX(15px);
-    transition: .5s;
 }
 .ride_container .cards .card .svg{
     display: flex;
     font-size: 20px;
     align-items: center;
     justify-content: center;
+    transition: transform .5s ease-in-out;
 }
 .ride_container .cards .card .text{
     padding-top: 36px;

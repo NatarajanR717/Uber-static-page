@@ -21,15 +21,15 @@
 .safe_content p{
     padding-block-end: 36px;
     color: #333333;
+    font-size: 14px;
 }
 .link .safety{
-    margin-left: 5rem;
+    margin-left: 36px;
 }
 .link a{
     text-decoration: none;
     position: relative;
     color: black;
-    font-size: 18px;
 }
 .link a::after {
     content: '';

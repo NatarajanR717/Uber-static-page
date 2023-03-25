@@ -19,12 +19,11 @@ ul{
     color: #fff;
     padding: 10px 20px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 14px;
+    transition: .3s ease-in-out;
 }
 .container a:hover{
     background-color: #333;
-    transition: .3s;
-
 }
 .menu-right ul{
     display: flex;
@@ -43,6 +42,6 @@ ul{
 }
 .menu-left .sign-up:hover{
     background-color: #E2e2e2;
-    transition: .3s;
+    transition: .3s ease-in-out;
 }
 

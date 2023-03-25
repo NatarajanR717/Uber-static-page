@@ -9,7 +9,7 @@
 .signup_container .col-1 .row-2{
     display: grid;
     position: relative;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 70% 30%;
     font-size: 34px;
 }
 .signup_container .col-1 .row-2 .svg{

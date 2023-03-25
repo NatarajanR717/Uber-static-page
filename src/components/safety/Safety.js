@@ -1,10 +1,10 @@
 import React from "react";
 import "./Safety.css";
-import SafeHomeImg from "../assets/Safety_Home_Img2x.webp";
-import SafeCity from "../assets/Cities_Home_Img2x.webp";
-import MultiPeopleImg from "../assets/person-multiple-outlined.svg";
-import NewsReadingImg from "../assets/document-outlined.svg";
-import HomeImg from "../assets/home-outlined.svg";
+import SafeHomeImg from "../../assets/Safety_Home_Img2x.webp";
+import SafeCity from "../../assets/Cities_Home_Img2x.webp";
+import MultiPeopleImg from "../../assets/person-multiple-outlined.svg";
+import NewsReadingImg from "../../assets/document-outlined.svg";
+import HomeImg from "../../assets/home-outlined.svg";
 
 function Safety() {
   return (

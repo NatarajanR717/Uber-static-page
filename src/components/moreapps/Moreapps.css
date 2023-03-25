@@ -25,6 +25,9 @@
     font-size: 30px;
     justify-content: center;
 }
+.more_container .col .row-1 .details h5{
+    font-size: 20px;
+}
 .more_container .col .row-1 .svg{
     display: flex;
     align-items: center;

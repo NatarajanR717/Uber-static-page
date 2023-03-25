@@ -1,0 +1,103 @@
+.footer_container{
+    margin-top: 65px;
+    padding: 80px 100px;
+    background-color: #000;
+}
+.footer_container h3{
+    font-size: 36px;
+    color: #fff;
+     padding-block-end:50px;
+}
+.footer_container .footer_heading{
+    padding-bottom: 50px;
+}
+.footer_container .footer_heading a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer_container .footer_details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer_container .footer_details h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    padding-block: 12px;
+}
+.footer_container .footer_details a{
+    font-size: 14px;
+}
+.footer_container .footer_details ul li {
+    list-style: none;
+    line-height: 40px;
+    color: #fff;
+}
+.footer_container .footer_details ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_container .footer_details ul a:hover{
+    color: #cbcbcb;
+}
+.footer_container .footer_icons{
+    padding-block: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.footer_container .footer_icons .col-1{
+    display: flex;
+    gap: 100px;
+}
+.footer_container .footer_icons .col-1 a{
+    color: #fff;
+    font-size: 20px;
+    padding: 13px 15px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+.footer_container .footer_icons .col-1 a:hover{
+    background-color: #333;
+}
+.footer_container .footer_icons .col-2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_container .footer_icons .col-2 .btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition:  .3s ease-in-out;
+}
+.footer_container .footer_icons .col-2 .btn a:hover{
+    background-color: #333;
+}
+.footer_container .footer_apps{
+    display: flex;
+    gap: 36px;
+}
+.footer_container .footer_apps img{
+    width: 150px;
+}
+.footer_container .footer_copywrite{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer_container .footer_copywrite .copy-1 a{
+    color: #555555;
+    text-decoration: none;
+}
+.footer_container .footer_copywrite .copy-2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 36px;
+}
+.footer_container .footer_copywrite .copy-2 a{
+    text-decoration: none;
+    color: #555555;
+}

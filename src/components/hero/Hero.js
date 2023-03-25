@@ -1,6 +1,6 @@
 import React from 'react'
-import BackgroundImage1 from '../assets/Rider_Home_bg_desktop2x.webp'
-import HeroInner from './HeroInner';
+import BackgroundImage1 from '../../assets/Rider_Home_bg_desktop2x.webp'
+import HeroInner from '../heroinner/HeroInner';
 
 function Hero() {
     const myStyle={

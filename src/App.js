@@ -1,11 +1,12 @@
 import './App.css';
-import Business from './components/Business';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Moreapps from './components/Moreapps';
-import Ridewithuber from './components/Ridewithuber';
-import Safety from './components/Safety';
-import Signup from './components/Signup';
+import Business from './components/business/Business';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import Moreapps from './components/moreapps/Moreapps';
+import Ridewithuber from './components/ridewithuber/Ridewithuber';
+import Safety from './components/safety/Safety';
+import Signup from './components/signup/Signup';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Safety/>
       <Moreapps/>
       <Signup/>
+      <Footer/>
     </div>
   );
 }

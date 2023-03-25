@@ -1,6 +1,6 @@
 import React from 'react'
 import './Business.css'
-import BackgroundImage1 from '../assets/HP-U4B-NYC-bkg.png'
+import BackgroundImage1 from '../../assets/HP-U4B-NYC-bkg.png'
 
 
 function Business() {

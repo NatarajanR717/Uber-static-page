@@ -1,9 +1,9 @@
 import React from "react";
 import "./Ridewithuber.css";
-import AutoImg from "../assets/Auto-150X150p4x.png";
-import MotoImg from "../assets/Moto-150X150p4x.png";
-import RentalImg from "../assets/uber-hourly.jfif";
-import IntercityImg from "../assets/Intercity-150X150p4x.png";
+import AutoImg from "../../assets/Auto-150X150p4x.png";
+import MotoImg from "../../assets/Moto-150X150p4x.png";
+import RentalImg from "../../assets/uber-hourly.jfif";
+import IntercityImg from "../../assets/Intercity-150X150p4x.png";
 
 function Ridewithuber() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Moreapps.css";
-import DriverAppImg from "../assets/Driver-App-logo.webp";
-import UberAppImg from "../assets/Rider-App-logo.webp";
+import DriverAppImg from "../../assets/Driver-App-logo.webp";
+import UberAppImg from "../../assets/Rider-App-logo.webp";
 function Moreapps() {
   return (
     <div className="more_container">

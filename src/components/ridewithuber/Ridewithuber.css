@@ -31,3 +31,6 @@
 .ride_container .cards .card .text{
     padding-top: 36px;
 }
+.ride_container .cards .card .text p{
+    font-size: 14px;
+}

@@ -26,3 +26,27 @@
     height: 1px;
     background-color: #000;
 }
+
+@media screen and (max-width:980px){
+    .signup_container{
+        padding: 40px 100px;
+    }
+    .signup_container .col-1{
+        grid-template-columns: 1fr;
+    }
+    .signup_container .col-1 .row-2::after{
+        display: none;
+    }
+    .signup_container .col-1 h3{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:556px) {
+    .signup_container{
+        padding: 20px;
+    }
+    .signup_container .col-1 h3{
+        font-size: 24px;
+    }
+}

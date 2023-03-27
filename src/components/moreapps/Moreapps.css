@@ -39,3 +39,18 @@
 .more_container .col .row-1:hover .svg{
     transform: translateX(15px);
 }
+
+@media screen and (max-width:980px) {
+    .more_container .col{
+        grid-template-columns: 1fr;
+    }
+    .more_container h3{
+        font-size: 30px;
+    }
+}
+ 
+@media screen and (max-width:556px) {
+    .more_container{
+        display: none;
+    }
+}

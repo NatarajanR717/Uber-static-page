@@ -84,3 +84,63 @@ form .input-group input{
     border: none;
     outline: none
 }
+
+@media screen and (max-width:980px){
+    .hero-inner{
+        position: relative;
+        top: 60px;
+        left: 100px;
+        height: 450px;
+        max-width: 500px;
+        background-color: white;
+    }
+    .content h3{
+        font-size: 28px;
+    }
+    form .input-group input{
+        height:40px;
+        font-size: 14px;
+    }
+    .btns{
+        padding-inline-start: 45px;
+        padding-top: 0;
+    }
+    .btns .sched{
+        font-size: 14px;
+    }
+    .btns .req{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:556px) {
+    .hero-inner{
+        top: 50px;
+        left: 20px;
+        max-width: 420px;
+        height: 450px;
+    }
+    .hero-para{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:445px) {
+    .hero-inner{
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 480px;
+    }
+    .content{
+        padding-inline: 20px;
+    }
+    .btns{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        padding:15px 20px;
+    }
+    .btns .sched{
+        margin: 0;
+    }
+}

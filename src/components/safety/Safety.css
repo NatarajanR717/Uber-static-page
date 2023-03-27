@@ -52,3 +52,23 @@
     gap: 36px;
 }
 
+@media screen and (max-width:980px){
+    .safety_container .items{
+        grid-template-columns: 1fr;
+    }
+    .safety_container .row-2{
+        flex-direction: column;
+    }
+    .safety_container h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:556px) {
+    .safety_container{
+        padding: 50px 20px;
+    }
+    .link .safety{
+        margin: 0;
+    }
+}
+

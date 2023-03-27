@@ -34,3 +34,40 @@
 .ride_container .cards .card .text p{
     font-size: 14px;
 }
+
+@media screen and (max-width:980px){
+    .ride_container .cards{
+        grid-template-columns: 1fr;
+    }
+    .head{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:556px){
+    .ride_container{
+        padding: 50px 20px;
+    }
+    .ride_container .cards .card{
+        flex-direction: column;
+    }
+    .ride_container .cards .card>div:nth-of-type(1){
+        display: flex;
+        justify-content: center;
+    }
+    .ride_container .card img{
+        width: 100px;
+    }
+    .ride_container .cards .card .text{
+        padding:0;
+    }
+    .ride_container .cards .card svg{
+        display: none;
+    }
+    .ride_container .cards .card .text p{
+        max-width: 420px;
+    }
+    .ride_container .cards .card {
+        display:flex;
+        justify-content: center;
+    }
+}

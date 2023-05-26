@@ -168,7 +168,7 @@ function Footer() {
                   fill="currentColor"
                 ></path>
               </svg>{" "}
-              Coimbatore
+              chennai
             </a>
           </div>
         </div>
